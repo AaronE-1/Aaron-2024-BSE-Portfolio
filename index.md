@@ -52,16 +52,7 @@ The Arduino Nano runs a program provided by Cokoino that accepts the potentiomet
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
-[Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%204%20-%20Test%20The%20Joystick%20Module/code/joystick/joystick.ino)) is the code used to test the joysticks.
-
-
-[Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%205%20-%20Test%20The%20Servo/code/servo_code1/servo_code1.ino)) is the code used to test the servos.
-
-
-[Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%206%20-%20Assembly%20The%20Robot/Code/Servo_90_ADJ/Servo_90_ADJ.ino)) is the code used to align the servos.
-
-
-[Here]([url](https://github.com/Cokoino/CKK0006/tree/master/Lesson%207%20-%20Control%20The%20Robot%20Arm/Code/Arm)) is the code used to control the completed arm using the Arduino Nano. (Note: the src folder must be in the same directory as the main code for the main code to upload to the Arduino Nano correctly.)
+[Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%204%20-%20Test%20The%20Joystick%20Module/code/joystick/joystick.ino)) is the code used to test the joysticks. [Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%205%20-%20Test%20The%20Servo/code/servo_code1/servo_code1.ino)) is the code used to test the servos. [Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%206%20-%20Assembly%20The%20Robot/Code/Servo_90_ADJ/Servo_90_ADJ.ino)) is the code used to align the servos. [Here]([url](https://github.com/Cokoino/CKK0006/tree/master/Lesson%207%20-%20Control%20The%20Robot%20Arm/Code/Arm)) is the code used to control the completed arm using the Arduino Nano. (Note: the src folder must be in the same directory as the main code for the main code to upload to the Arduino Nano correctly.)
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
