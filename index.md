@@ -59,6 +59,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 [Here]([url](https://github.com/Cokoino/CKK0006/tree/master/Lesson%207%20-%20Control%20The%20Robot%20Arm/Code/Arm)) is the code used to control the completed arm using the Arduino Nano. (Note: the src folder must be in the same directory as the main code for the main code to upload to the Arduino Nano correctly.)
 
 # Bill of Materials
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Robot Arm Kit | Includes all parts for the structure of the arm, as well as the original electronics | $49.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1)"> Link </a> |
