@@ -67,7 +67,18 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 | Screwdriver Kit | Used for assembling parts | $7.99 | <a href="https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9/"> Link </a> |
 | Electronics Kit | Spare electronics parts | $13.99 | <a href="https://www.amazon.com/Smraza-Electronics-Potentiometer-tie-Points-Breadboard/dp/B0B62RL725"> Link </a> |
 | Digital Multimeter | Used to test various circuit parameters | $16.23 | <a href="https://www.amazon.com/AstroAI-Digital-Multimeter-Voltage-Tester/dp/B01ISAMUA6"> Link </a> |
+| Raspberry Pi 4 Model B Starter Kit | Includes Raspberry Pi 4 Model B computer and necessary peripherals | $93.00 | <a href="https://www.amazon.com/Vemico-Raspberry-Starter-Heatsinks-Screwdriver/dp/B09QGZ94M8"> Link </a> |
+| Servo Driver Board | Used to drive servo motors | $9.99 | <a href="https://www.amazon.com/gp/product/B0CNVBWX2M"> Link </a> |
+| Analog-To-Digital Converter | Used to convert analog output signal of joysticks to digital input values for the Raspberry Pi | $9.99 | <a href="https://www.amazon.com/gp/product/B07YKH3T4C"> Link </a> |
+| Portable Battery For Raspberry Pi | Used to power the Raspberry Pi without connection to wall outlet | $29.99 | <a href="https://www.amazon.com/gp/product/B0C7PHKKNK"> Link </a> |
 
 # Other Resources/Examples
 - [Original Assembly Guide & Code](https://github.com/Cokoino/CKK0006)
+- [Tutorial for Using Servo Driver Board](https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/overview)
+- [Data Sheet for External Power Supply](https://mega.nz/folder/MxgnBIDB#ygd3AMdhvgNAntwzRcWvpg/file/l1xmzZAA)
+- [Pin Diagram for Raspberry Pi](https://www.youngwonks.com/blog/Raspberry-Pi-4-Pinout)
+- [Tutorial for Using Analog-To-Digital Converter](https://circuitdigest.com/microcontroller-projects/interfacing-pcf8591-adc-dac-module-with-raspberry-pi)
+- [Tutorial for Installing adafruit_blinka Library on Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/overview)
+- [Fritzing Part File for External 5V Power Supply](https://github.com/RafaGS/Fritzing/blob/master/DC-DC%20Power%20Module%20(5v)%20top.fzpz)
+- [Circuit Diagram Tool](https://fritzing.org/)
 - [Proofreading Tool](https://www.grammarly.com/)
