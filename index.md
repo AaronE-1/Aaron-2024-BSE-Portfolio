@@ -80,5 +80,6 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 - [Tutorial for Using Analog-To-Digital Converter](https://circuitdigest.com/microcontroller-projects/interfacing-pcf8591-adc-dac-module-with-raspberry-pi)
 - [Tutorial for Installing adafruit_blinka Library on Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/overview)
 - [Fritzing Part File for External 5V Power Supply](https://github.com/RafaGS/Fritzing/blob/master/DC-DC%20Power%20Module%20(5v)%20top.fzpz)
+- [Fritzing Part File for Analog-To-Digital Converter](https://github.com/adafruit/Fritzing-Library/blob/master/parts/Adafruit%20PCF8591.fzpz)
 - [Circuit Diagram Tool](https://fritzing.org/)
 - [Proofreading Tool](https://www.grammarly.com/)
