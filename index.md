@@ -44,8 +44,8 @@ After I finished testing and aligning the servos, I continued with the assembly 
 
 The Arduino Nano runs a program provided by Cokoino that accepts the potentiometer input of two joysticks and converts the input to the proper angles for the servos to rotate to. I will modify my project so that I can control the arm using a Raspberry Pi 4 rather than the Arduino Nano. To accomplish this, I will write a custom Python program for interfacing with the servos and joysticks.
 
-<!---# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
+# Schematics 
+![Overall Circuit Diagram](RasPi Arm Circuit Diagram 2.png)
 
 # Code
 [Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%204%20-%20Test%20The%20Joystick%20Module/code/joystick/joystick.ino)) is the code used to test the joysticks.
