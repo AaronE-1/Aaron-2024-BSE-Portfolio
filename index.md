@@ -11,7 +11,7 @@
 
 # First Milestone
 
-<iframe width="951" height="535" src="https://www.youtube.com/embed/yEpLYypxVuE?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Aaron E First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yEpLYypxVuE?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Aaron E First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My first milestone involved assembling and testing the Cokoino robotic arm using assembly guides and sample code provided by Cokoino. Before assembling the arm, I used sample code to test the servo motors and realign their angles to 90°.
 
