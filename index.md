@@ -83,3 +83,4 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 - [Fritzing Part File for Analog-To-Digital Converter](https://github.com/adafruit/Fritzing-Library/blob/master/parts/Adafruit%20PCF8591.fzpz)
 - [Circuit Diagram Tool](https://fritzing.org/)
 - [Proofreading Tool](https://www.grammarly.com/)
+- [Screen Recording Tool](https://www.loom.com/)
