@@ -7,19 +7,20 @@
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  
-# Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 -->
+
+# First Milestone
+
+<iframe width="951" height="535" src="https://www.youtube.com/embed/yEpLYypxVuE?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Aaron E First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+My first milestone involved assembling and testing the Cokoino robotic arm using assembly guides and sample code provided by Cokoino. Before assembling the arm, I used sample code to test the servo motors and realign their angles to 90°.
+
+As I worked through this process, I encountered my first issue. After I tested two of the four servos, my computer stopped recognizing the Arduino Nano that is used in this project. I fixed this issue by restarting my computer, which allowed my Windows operating system to correctly identify the Nano again.
+
+After I finished testing and aligning the servos, I continued with the assembly of the structure of the arm. Due to the small size of some of the parts, the assembly was at times difficult, but I can now control my robotic arm using the attached joysticks.
+
+The Arduino Nano runs a program provided by Cokoino that accepts the potentiometer input of two joysticks and converts the input to the proper angles for the servos to rotate to. I will modify my project so that I can control the arm using a Raspberry Pi 4 rather than the Arduino Nano. To accomplish this, I will write a custom Python program for interfacing with the servos and joysticks.
+
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -50,17 +51,19 @@ The piecewise function conversion step was necessary to correctly translate the 
 
 My setup now works as expected, with the position of the joystick being correlated to an angle for the servo. Moving forward, I will first finish integrating the remaining axes of the joysticks. Then I will potentially alter my code to have the position of the joysticks determine the speed at which the servos rotate, rather than determining the exact angle of the servo. If I have time, I may also incorporate a pressure sensor to allow the gripper to automatically stop closing when it has sufficiently grasped an object.
 
-# First Milestone
+<!--
+# Final Milestone
 
-<iframe width="951" height="535" src="https://www.youtube.com/embed/yEpLYypxVuE?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Aaron E First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-My first milestone involved assembling and testing the Cokoino robotic arm using assembly guides and sample code provided by Cokoino. Before assembling the arm, I used sample code to test the servo motors and realign their angles to 90°.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-As I worked through this process, I encountered my first issue. After I tested two of the four servos, my computer stopped recognizing the Arduino Nano that is used in this project. I fixed this issue by restarting my computer, which allowed my Windows operating system to correctly identify the Nano again.
-
-After I finished testing and aligning the servos, I continued with the assembly of the structure of the arm. Due to the small size of some of the parts, the assembly was at times difficult, but I can now control my robotic arm using the attached joysticks.
-
-The Arduino Nano runs a program provided by Cokoino that accepts the potentiometer input of two joysticks and converts the input to the proper angles for the servos to rotate to. I will modify my project so that I can control the arm using a Raspberry Pi 4 rather than the Arduino Nano. To accomplish this, I will write a custom Python program for interfacing with the servos and joysticks.
+For your final milestone, explain the outcome of your project. Key details to include are:
+- What you've accomplished since your previous milestone
+- What your biggest challenges and triumphs were at BSE
+- A summary of key topics you learned about
+- What you hope to learn in the future after everything you've learned at BSE
+-->
 
 # Schematics 
 ![Overall Circuit Diagram](RasPi Arm Circuit Diagram 2.png)
