@@ -27,11 +27,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 For my second milestone, I reconfigured the setup of my robotic arm to use a Raspberry Pi as the controller. I encountered some issues along the way, but I have made great progress toward being able to control the robotic arm using the Raspberry Pi. My general process for this milestone was as follows.
 
 ##Interfacing Between the Raspberry Pi & Servo Driver Board
+
 My first step was to get the Raspberry Pi interfacing properly with the servo driver board. I first downloaded the necessary libraries (specifically the Adafruit CircuitPython ServoKit library), then I connected all of the proper wires and looked at an online tutorial to help me write a simple test program to try controlling the arm. This particular servo driver board uses the I2C communication protocol. This communication protocol allows the Pi to interface with multiple devices over just two wires.
 
 Later, I realized that the servo driver board was not properly driving the servos because I had not yet configured the external power supply to supply a voltage. I was using this external power supply to supply power for driving the servos. I then ran my program to manually input different angles to move the servos, and the servos responded correctly.
 
 ##Setting Up The Joysticks & Analog-To-Digital Converter
+
 My next step was to incorporate the joysticks into the system. This required setting up the analog-to-digital converter, or ADC. Since the Raspberry Pi cannot read the analog outputs of the joysticks itself, the Raspberry Pi needs a separate board to convert the analog output of the joysticks to a digital input for it. Both the ADC and servo driver board that I used communicate with the Pi using the I2C communication protocol.
 
 The methods of using the ADC were not immediately intuitive for me, but I took my time, checked my wiring multiple times, did research, and asked questions. So, in the end, I succeeded. Before this point, however, I realized that there was an undefined variable in my code, but this was easily fixed by adding a line to my code that defined the analog input pin that I was using on the ADC to read the values from the joystick.
@@ -39,11 +41,13 @@ The methods of using the ADC were not immediately intuitive for me, but I took m
 After I fixed this, I encountered another issue where the ADC kept outputting the same value over and over again. I solved this issue by reconfiguring the power and ground wires for the ADC and joysticks so that they were all on the same circuit. After I made this change, the test program worked properly, outputting different values as I moved the joystick.
 
 ##Putting It All Together
+
 My final step was to integrate the servo driver board and ADC together. Once I completed the wiring for this, I wrote a test program that uses the input of one axis of one of the joysticks to control one of the servos in the arm. The analog output of the joystick goes to the ADC, which converts it to a digital input for the Raspberry Pi. My Python program then uses a piecewise function to convert the value provided by the ADC to an angle to send to the servo driver board, which in turn tells the servo the correct angle to rotate to.
 
 The piecewise function conversion step was necessary to correctly translate the position of the joysticks to the position of the servos. The output range of the joysticks is from 0 to 255, while the movement of the servos is restricted to 0 to 180 degrees. This meant that some function was necessary to translate the input of the joystick to the proper angle for the servos. However, the physical middle position of the joystick outputs a value of about 211. This meant that the conversion from the input of the joystick to the output angle of the servo could not simply be a linear function, because two different conversions were necessary to account for the uneven range of values above and below the center of the joystick.
 
 ##Next Steps
+
 My setup now works as expected, with the position of the joystick being correlated to an angle for the servo. Moving forward, I will first finish integrating the remaining axes of the joysticks. Then I will potentially alter my code to have the position of the joysticks determine the speed at which the servos rotate, rather than determining the exact angle of the servo. If I have time, I may also incorporate a pressure sensor to allow the gripper to automatically stop closing when it has sufficiently grasped an object.
 
 # First Milestone
