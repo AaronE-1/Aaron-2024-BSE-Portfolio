@@ -19,22 +19,36 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+-->
 # Second Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
--->
+For my second milestone, I reconfigured the setup of my robotic arm to use a Raspberry Pi as the controller. I encountered some issues along the way, but I have made great progress toward being able to control the robotic arm using the Raspberry Pi. My general process for this milestone was as follows.
+
+##Interfacing Between the Raspberry Pi & Servo Driver Board
+My first step was to get the Raspberry Pi interfacing properly with the servo driver board. I first downloaded the necessary libraries (specifically the Adafruit CircuitPython ServoKit library), then I connected all of the proper wires and looked at an online tutorial to help me write a simple test program to try controlling the arm. This particular servo driver board uses the I2C communication protocol. This communication protocol allows the Pi to interface with multiple devices over just two wires.
+
+Later, I realized that the servo driver board was not properly driving the servos because I had not yet configured the external power supply to supply a voltage. I was using this external power supply to supply power for driving the servos. I then ran my program to manually input different angles to move the servos, and the servos responded correctly.
+
+##Setting Up The Joysticks & Analog-To-Digital Converter
+My next step was to incorporate the joysticks into the system. This required setting up the analog-to-digital converter, or ADC. Since the Raspberry Pi cannot read the analog outputs of the joysticks itself, the Raspberry Pi needs a separate board to convert the analog output of the joysticks to a digital input for it. Both the ADC and servo driver board that I used communicate with the Pi using the I2C communication protocol.
+
+The methods of using the ADC were not immediately intuitive for me, but I took my time, checked my wiring multiple times, did research, and asked questions. So, in the end, I succeeded. Before this point, however, I realized that there was an undefined variable in my code, but this was easily fixed by adding a line to my code that defined the analog input pin that I was using on the ADC to read the values from the joystick.
+
+After I fixed this, I encountered another issue where the ADC kept outputting the same value over and over again. I solved this issue by reconfiguring the power and ground wires for the ADC and joysticks so that they were all on the same circuit. After I made this change, the test program worked properly, outputting different values as I moved the joystick.
+
+##Putting It All Together
+My final step was to integrate the servo driver board and ADC together. Once I completed the wiring for this, I wrote a test program that uses the input of one axis of one of the joysticks to control one of the servos in the arm. The analog output of the joystick goes to the ADC, which converts it to a digital input for the Raspberry Pi. My Python program then uses a piecewise function to convert the value provided by the ADC to an angle to send to the servo driver board, which in turn tells the servo the correct angle to rotate to.
+
+The piecewise function conversion step was necessary to correctly translate the position of the joysticks to the position of the servos. The output range of the joysticks is from 0 to 255, while the movement of the servos is restricted to 0 to 180 degrees. This meant that some function was necessary to translate the input of the joystick to the proper angle for the servos. However, the physical middle position of the joystick outputs a value of about 211. This meant that the conversion from the input of the joystick to the output angle of the servo could not simply be a linear function, because two different conversions were necessary to account for the uneven range of values above and below the center of the joystick.
+
+##Next Steps
+My setup now works as expected, with the position of the joystick being correlated to an angle for the servo. Moving forward, I will first finish integrating the remaining axes of the joysticks. Then I will potentially alter my code to have the position of the joysticks determine the speed at which the servos rotate, rather than determining the exact angle of the servo. If I have time, I may also incorporate a pressure sensor to allow the gripper to automatically stop closing when it has sufficiently grasped an object.
+
 # First Milestone
 
-<iframe width="951" height="535" src="https://www.youtube.com/embed/Ff5HCMyN8lo" title="Aaron E First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="951" height="535" src="https://www.youtube.com/embed/yEpLYypxVuE?list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM" title="Aaron E First Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My first milestone involved assembling and testing the Cokoino robotic arm using assembly guides and sample code provided by Cokoino. Before assembling the arm, I used sample code to test the servo motors and realign their angles to 90°.
 
@@ -55,6 +69,12 @@ The Arduino Nano runs a program provided by Cokoino that accepts the potentiomet
 [Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%206%20-%20Assembly%20The%20Robot/Code/Servo_90_ADJ/Servo_90_ADJ.ino)) is the code used to align the servos.
 
 [Here]([url](https://github.com/Cokoino/CKK0006/tree/master/Lesson%207%20-%20Control%20The%20Robot%20Arm/Code/Arm)) is the code used to control the completed arm using the Arduino Nano. (Note: the src folder must be in the same directory as the main code for the main code to upload to the Arduino Nano correctly.)
+
+[Here]([url](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ServoDriverBoardTestProgram.py)) is the code used to test the servo driver board.
+
+[Here]([url](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ADCTestProgram.py)) is the code used to test the analog-to-digital converter.
+
+[Here]([url](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ArmProgram1.py)) is the first program I wrote to use both the servo driver board and the analog-to-digital converter.
 
 # Bill of Materials
 
