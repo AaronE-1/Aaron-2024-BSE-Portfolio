@@ -69,17 +69,17 @@ For your final milestone, explain the outcome of your project. Key details to in
 ![Overall Circuit Diagram](RasPi Arm Circuit Diagram 2.png)
 
 # Code
-[Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%204%20-%20Test%20The%20Joystick%20Module/code/joystick/joystick.ino)) is the code used to test the joysticks.
+[Here](https://github.com/Cokoino/CKK0006/blob/master/Lesson%204%20-%20Test%20The%20Joystick%20Module/code/joystick/joystick.ino) is the code used to test the joysticks.
 
-[Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%205%20-%20Test%20The%20Servo/code/servo_code1/servo_code1.ino)) is the code used to test the servos.
+[Here](https://github.com/Cokoino/CKK0006/blob/master/Lesson%205%20-%20Test%20The%20Servo/code/servo_code1/servo_code1.ino) is the code used to test the servos.
 
-[Here]([url](https://github.com/Cokoino/CKK0006/blob/master/Lesson%206%20-%20Assembly%20The%20Robot/Code/Servo_90_ADJ/Servo_90_ADJ.ino)) is the code used to align the servos.
+[Here](https://github.com/Cokoino/CKK0006/blob/master/Lesson%206%20-%20Assembly%20The%20Robot/Code/Servo_90_ADJ/Servo_90_ADJ.ino) is the code used to align the servos.
 
-[Here]([url](https://github.com/Cokoino/CKK0006/tree/master/Lesson%207%20-%20Control%20The%20Robot%20Arm/Code/Arm)) is the code used to control the completed arm using the Arduino Nano. (Note: the src folder must be in the same directory as the main code for the main code to upload to the Arduino Nano correctly.)
+[Here](https://github.com/Cokoino/CKK0006/tree/master/Lesson%207%20-%20Control%20The%20Robot%20Arm/Code/Arm) is the code used to control the completed arm using the Arduino Nano. (Note: the src folder must be in the same directory as the main code for the main code to upload to the Arduino Nano correctly.)
 
-[Here]([url](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ServoDriverBoardTestProgram.py)) is the code used to test the servo driver board.
+[Here](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ServoDriverBoardTestProgram.py) is the code used to test the servo driver board.
 
-[Here]([url](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ADCTestProgram.py)) is the code used to test the analog-to-digital converter.
+[Here](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ADCTestProgram.py) is the code used to test the analog-to-digital converter.
 
 [Here](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ArmProgram1.py) is the first program I wrote to use both the servo driver board and the analog-to-digital converter.
 
