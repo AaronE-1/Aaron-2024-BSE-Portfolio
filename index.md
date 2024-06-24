@@ -81,7 +81,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 [Here]([url](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ADCTestProgram.py)) is the code used to test the analog-to-digital converter.
 
-[Here]([url](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ArmProgram1.py)) is the first program I wrote to use both the servo driver board and the analog-to-digital converter.
+[Here](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ArmProgram1.py) is the first program I wrote to use both the servo driver board and the analog-to-digital converter.
 
 # Bill of Materials
 
