@@ -23,8 +23,7 @@ The Arduino Nano runs a program provided by Cokoino that accepts the potentiomet
 
 # Second Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uQCSEdtbfX0" title="Aaron E  Second Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 For my second milestone, I reconfigured the setup of my robotic arm to use a Raspberry Pi as the controller. I encountered some issues along the way, but I have made great progress toward being able to control the robotic arm using the Raspberry Pi. My general process for this milestone was as follows.
 
 ## Interfacing Between the Raspberry Pi & Servo Driver Board
