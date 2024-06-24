@@ -68,8 +68,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ![Overall Circuit Diagram](RasPi Arm Circuit Diagram 3.png)
 
-<!--<img src="https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/RasPi%20Arm%20Circuit%20Diagram%203.png" width="897">--?
-
 # Code
 [Here](https://github.com/Cokoino/CKK0006/blob/master/Lesson%204%20-%20Test%20The%20Joystick%20Module/code/joystick/joystick.ino) is the code used to test the joysticks.
 
