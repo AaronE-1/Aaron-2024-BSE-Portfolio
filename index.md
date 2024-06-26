@@ -111,3 +111,4 @@ For your final milestone, explain the outcome of your project. Key details to in
 - [Circuit Diagram Tool](https://fritzing.org/)
 - [Proofreading Tool](https://www.grammarly.com/)
 - [Screen Recording Tool](https://www.loom.com/)
+- [Useful AI Chatbot for Help with Engineering Troubleshooting](https://chatgpt.com/)
