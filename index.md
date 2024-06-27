@@ -4,7 +4,7 @@
 |:--:|:--:|:--:|:--:|
 | Aaron E | NorthStar Academy & CCU Academy | Mechanical Engineering/Robotics| Incoming Junior
 
-<img src="FinalProjectPic.png" width="375" height="500">
+<img src="FinalProjectPic.png" width="337" height="450">
 
 # First Milestone
 
