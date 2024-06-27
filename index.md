@@ -4,10 +4,7 @@
 |:--:|:--:|:--:|:--:|
 | Aaron E | NorthStar Academy & CCU Academy | Mechanical Engineering/Robotics| Incoming Junior
 
-<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
--->
+<img src="FinalProjectPic.png">
 
 # First Milestone
 
