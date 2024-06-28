@@ -51,13 +51,17 @@ My setup now works as expected, with the position of the joystick being correlat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LwJy0RRTHnE" title="Aaron E Third Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!--
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
--->
+My final milestone was software-focused, with the major improvement to my project being that I changed my code so that the joysticks control the rotational speed of the servos rather than their exact positions. I am excited to say that I succeeded in accomplishing this modification.
+
+I started my final milestone by correlating the position of the joysticks to angles for the servos. Once I got this code working properly, my focus shifted to altering my code so that the position of the joysticks would control the directional speed of the servos, rather than their exact angles. It was very challenging to get this code working, as the new method of control is vastly different than the previous one, which led to a multitude of syntax and logic errors in my code. However, by persevering through systematically eliminating errors, I am excited to say that I was able to make my code operational. I can now properly control my robotic arm using a Raspberry Pi instead of an Arduino.
+
+In the process of completing this project, the biggest challenge I faced was working with the I2C communication protocol because the Raspberry Pi was not consistently recognizing my I2C devices. I overcame this challenge by doing research and thoroughly thinking through the situation.
+
+My biggest triumph was getting my final code working. I spent many long hours trying to debug the code, so I was very excited when it finally worked.
+
+Fundamental topics in this project included the translation of analog outputs to digital values, the use of pulse width modulation to control servo motors, and the communication between I2C devices. Of these, I think that my experience with interfacing between I2C devices will prove the most useful to me in future projects because I can comfortably add I2C boards to my projects to extend their functionality.
+
+One concept that I hope to learn more about in the future is the use of microcontrollers in projects, especially for Internet of Things, or IoT, applications. I look forward to being able to use the base skills I learned in my time at BlueStamp Engineering to explore this concept further.
 
 # Schematics
 
