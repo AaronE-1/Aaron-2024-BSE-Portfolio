@@ -1,5 +1,7 @@
 # Aaron's Three-Jointed Robotic Arm
 
+My project is a three-joint robotic arm, which uses one servo motor to rotate the base, two servo motors to control the joints of the arm, and one servo motor to open and close the gripper. A Python program running on a Raspberry Pi 4 single-board computer accepts inputs from two analog joysticks and moves the arm’s servos accordingly.
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Aaron E | NorthStar Academy & CCU Academy | Mechanical Engineering/Robotics| Incoming Junior
