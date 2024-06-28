@@ -84,7 +84,7 @@ One concept that I hope to learn more about in the future is the use of microcon
 
 [Here](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/ArmProgram1.py) is the first program I wrote to use both the servo driver board and the analog-to-digital converter with the Raspberry Pi 4.
 
-
+[Here](https://github.com/AaronE-1/Aaron-2024-BSE-Portfolio/blob/gh-pages/FinalCode.py) is my final code for controlling the robotic arm with the Raspberry Pi 4.
 
 # Bill of Materials
 
